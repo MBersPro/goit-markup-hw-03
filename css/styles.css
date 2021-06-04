@@ -186,7 +186,7 @@ img {
   color: white;
   font-size: 16px;
   border: none;
-
+  line-height: 30px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 40px;
@@ -220,7 +220,6 @@ img {
 }
 
 .our-team-background {
-  height: 650px;
   background-color: #f5f4fa;
 }
 
@@ -281,10 +280,7 @@ img {
 
 .footer {
   background-color: #2f303a;
-  height: 252px;
-}
-
-.footer-container {
+  padding-bottom: 60px;
   padding-top: 60px;
 }
 
@@ -336,6 +332,10 @@ address a {
 
 /* ===================================== MAIN SETTINGS ============================================ */
 
+.buttons-portfolio {
+  margin-bottom: 50px;
+}
+
 .portfolio-buttons {
   display: flex;
   justify-content: center;
@@ -352,6 +352,7 @@ address a {
   font-weight: 500;
   font-family: "Roboto", sans-serif;
   display: flex;
+  line-height: 26px;
 
   padding: 6px 22px;
 }
@@ -364,19 +365,18 @@ address a {
 .portfolio-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-top: -30px;
+  margin-left: -30px;
+}
+
+.port-cards-marg {
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .portfolio-card {
   background: #ffffff;
-  border: 1px solid #eeeeee;
   box-sizing: border-box;
-  margin-top: 30px;
-}
-
-.section2 {
-  margin-top: 34px;
 }
 
 .section2 h3 {
@@ -387,9 +387,6 @@ address a {
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
-  margin-top: 20px;
-  margin-bottom: 4px;
-  padding-left: 24px;
 }
 .section2 p {
   font-family: "Roboto", sans-serif;
@@ -401,7 +398,12 @@ address a {
   letter-spacing: 0.03em;
 
   color: #757575;
-
+}
+.portf-border {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
   padding-left: 24px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
