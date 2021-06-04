@@ -11,8 +11,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+
+
     <header class="header">
         <div class="container link header-container">
             <div class="logo-nav">
@@ -21,8 +25,8 @@
                 </a>
                 <nav class="mainmenu">
                     <ul class="navigation list">
-                        <li class="nav-li"><a class="nav nav-blue" href="index.html">Студия</a></li>
-                        <li class="nav-li"><a class="nav" href="portfoliopage.html">Портфолио</a></li>
+                        <li class="nav-li"><a class="nav" href="index.html">Студия</a></li>
+                        <li class="nav-li"><a class="nav nav-blue" href="portfoliopage.html">Портфолио</a></li>
                         <li class="nav-li"><a class="nav" href="#">Контакты</a></li>
                     </ul>
                 </nav>
@@ -34,21 +38,23 @@
         </div>
     </header>
 
+
+
     <main>
-        <section class="main-section container">
+        <section class="main-section container section">
             <section class="buttons-portfolio">
                 <ul class="portfolio-buttons list"> 
-                    <li><button type="button" class="button-portfolio">Все</button></li>
-                    <li><button type="button" class="button-portfolio">Веб-сайты</button></li>
-                    <li><button type="button" class="button-portfolio">Приложения</button></li>
-                    <li><button type="button" class="button-portfolio">Дизайн</button></li>
-                    <li><button type="button" class="button-portfolio">Маркетинг</button></li>
+                    <li class="flex-portfolio-buttons"><button type="button" class="button-portfolio">Все</button></li>
+                    <li class="flex-portfolio-buttons"><button type="button" class="button-portfolio">Веб-сайты</button></li>
+                    <li class="flex-portfolio-buttons"><button type="button" class="button-portfolio">Приложения</button></li>
+                    <li class="flex-portfolio-buttons"><button type="button" class="button-portfolio">Дизайн</button></li>
+                    <li class="flex-portfolio-buttons"><button type="button" class="button-portfolio">Маркетинг</button></li>
                 </ul>
             </section>
             <section class="section2">
-                <ul class="list">
+                <ul class="portfolio-cards list">
                     <li>
-                        <div class="techno_quack">
+                        <div class="portfolio-card">
                             <img
                             src="./images/portfolio-page-img/computer.jpg"
                             alt="Ноутбук с сайтом"
@@ -59,7 +65,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="poster">
+                        <div class="portfolio-card">
                             <img
                             src="./images/portfolio-page-img/poster.jpg"
                             alt="постер с баскетболистами"
@@ -70,7 +76,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="seafood">
+                        <div class="portfolio-card">
                             <img
                             src="./images/portfolio-page-img/seafood.jpg"
                             alt="логотип Seafood"
@@ -81,7 +87,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="headphones">
+                        <div class="portfolio-card">
                             <img
                             src="./images/portfolio-page-img/headphones.jpg"
                             alt="наушники"
@@ -91,7 +97,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="boxes">
+                        <div class="portfolio-card">
                             <img
                             src="./images/portfolio-page-img/boxes.jpg"
                             alt="коробки"
@@ -101,7 +107,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="computer">
+                        <div class="portfolio-card">
                             <img
                             src="./images/portfolio-page-img/computer.jpg"
                             alt="компьютер"
@@ -112,7 +118,7 @@
                     </li>
                     
                     <li>
-                        <div class="limited">
+                        <div class="portfolio-card">
                             <img
                             src="./images/portfolio-page-img/book.jpg"
                             alt="книга с картинками"
@@ -123,7 +129,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="labeltag">
+                        <div class="portfolio-card">
                             <img
                             src="./images/portfolio-page-img/labeltag.jpg"
                             alt="ярлык с логотипом"
@@ -134,7 +140,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="growingbiz">
+                        <div class="portfolio-card" class="growingbiz">
                             <img
                             src="./images/portfolio-page-img/growingbiz.jpg"
                             alt="ноутбук с сайтом Growing Business"
@@ -149,18 +155,18 @@
         </section>
     </main>
     
-    <footer class="footer-portfolio">
-        <a href="index.html">
-            <div class="logo-footer">
+    <footer class="footer">
+        <div class="footer-container container link">
+            <a class="logo-footer" href="index.html">
                 <span class="logo-web">Web</span><span class="studio-footer">Studio</span>
-            </div>
-        </a>
-
-        <address>
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <a href="mailto:info@example.com">info@example.com</a><br>
-            <a href="tel:+3809911111">+38 099 111 11 11</a>
-        </address>
+            </a>
+    
+            <address>
+                <p>г. Киев, пр-т Леси Украинки, 26</p>
+                <a class="mail-footer" href="mailto:info@example.com">info@example.com</a><br>
+                <a class="tel-footer" href="tel:+3809911111">+38 099 111 11 11</a>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
